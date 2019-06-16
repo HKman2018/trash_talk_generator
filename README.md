@@ -15,3 +15,7 @@
 ## 安裝方法 
         git clone https://github.com/HKman2018/trash_talk_generator.git
      
+ 
+## 改進的地方
+* 使用者使用一次之後的選擇沒有保存,還沒搞清楚 handlebars-helpers 的用法
+  請助教指點 
