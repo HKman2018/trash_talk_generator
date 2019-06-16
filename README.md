@@ -17,5 +17,6 @@
      
  
 ## 改進的地方
-* handlebars-helpers 的用法不太清楚 請助教指點 
+* handlebars-helpers 的用法 是參考啊荃 
+* 選擇職業時border改變顏色 使用體驗會更好
 
