@@ -1,0 +1,52 @@
+<div class="container">
+
+  <div class="mt-4" style="text-align:center;">
+    <h1 class="text-light"><span>你想對誰說幹話？</span></h1>
+  </div>
+  <form action="/" method="post">
+    <div class="row">
+      <div class="col-md-4 mt-4 ">
+        <div class="card " style="width: 18rem;">
+          <div class="card-body text-center">
+            <img class="card-img-top" style="height: 12rem;"
+              src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="career" id="engineer" value="engineer">
+              <label class="form-check-label">工程師</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-4 ">
+        <div class="card " style="width: 18rem;">
+          <div class="card-body text-center">
+            <img class="card-img-top" style="height: 12rem;"
+              src=" https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="career" id="designer" value="designer">
+              <label class="form-check-label">設計師</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mt-4 ">
+        <div class="card" style="width: 18rem;">
+          <div class="card-body text-center">
+            <img class="card-img-top " style="height: 12rem;"
+              src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg">
+            <div class="form-check form-check-inline">
+              <input class="form-check-input" type="radio" name="career" id="entrepreneur" value="entrepreneur">
+              <label class="form-check-label">創業家</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 mt-4 ">
+        <button class="btn btn-info py-2 px-5 " type="submit">產生幹話</button>
+      </div>
+      <div class="col-md-9 mt-4">
+        <textarea class="form-control" style="font-size:1.5rem;" rows="3" id="result">{{result}}</textarea>
+      </div>
+    </div>
+  </form>
+</div>
