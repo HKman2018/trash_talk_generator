@@ -3,6 +3,12 @@
 
 ## 簡介
         選擇一個職業進行產生幹話
+        
+## 環境設置需度
+* Node.js
+* express
+        
+        
 ## 安裝方法 
         git clone https://github.com/HKman2018/trash_talk_generator.git
      
