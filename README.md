@@ -17,5 +17,5 @@
      
  
 ## 改進的地方
-* 使用者使用一次之後的選擇沒有保存,還沒搞清楚 handlebars-helpers 的用法
-  請助教指點 
+* handlebars-helpers 的用法不太清楚 請助教指點 
+
