@@ -11,7 +11,7 @@
             <img class="card-img-top" style="height: 12rem;"
               src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg">
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="career" id="engineer" value="engineer">
+              <input class="form-check-input" type="radio" name="career" id="engineer" value="engineer"{{#ifEquals career 'engineer'}}{{/ifEquals}}>
               <label class="form-check-label">工程師</label>
             </div>
           </div>
@@ -23,7 +23,7 @@
             <img class="card-img-top" style="height: 12rem;"
               src=" https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg">
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="career" id="designer" value="designer">
+              <input class="form-check-input" type="radio" name="career" id="designer" value="designer"{{#ifEquals career 'designer'}}{{/ifEquals}}>
               <label class="form-check-label">設計師</label>
             </div>
           </div>
@@ -35,7 +35,7 @@
             <img class="card-img-top " style="height: 12rem;"
               src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg">
             <div class="form-check form-check-inline">
-              <input class="form-check-input" type="radio" name="career" id="entrepreneur" value="entrepreneur">
+              <input class="form-check-input" type="radio" name="career" id="entrepreneur" value="entrepreneur"{{#ifEquals career 'entrepreneur'}}{{/ifEquals}}>
               <label class="form-check-label">創業家</label>
             </div>
           </div>
