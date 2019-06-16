@@ -4,4 +4,5 @@
 ## 簡介
         選擇一個職業進行產生幹話
 ## 安裝方法 
-        git 
+        git clone https://github.com/HKman2018/trash_talk_generator.git
+     
