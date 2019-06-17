@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 app.post('/', (req, res) => {
   const career = req.body.career
   const result = trashTalkGenerate(career)
-  res.render('index', { result: result, helpers: { career: career } })
+  res.render('index', { result: result,  career: career  })
 })
 //starts the express server and listening for connections
 app.listen(port, () => {
